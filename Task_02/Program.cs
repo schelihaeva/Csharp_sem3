@@ -2,13 +2,22 @@
 // 5-> 1,4,9,16,25
 // 2->1,4
 
+ //1 вариант решения
+
+// System.Console.WriteLine("Введите число: ");
+// int number = Math.Abs(Convert.ToInt32(Console.ReadLine())); //Math.Abs - преобразуем число в целое положительное число
+// int i = 1;
+// while(i<= number)
+// {
+//     System.Console.WriteLine($"{Math.Pow(i, 2)} ");
+//     i++;
+// }
+
+// 2 вариант решения
 System.Console.WriteLine("Введите число: ");
-int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));// Math.Abs -сконвертировали отрицательное уисло в положительное
-int i = 1;
+ int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-while(i <= number) 
-{
-System.Console.Write($"{Math.Pow(i, 2)} ");
-i++;
-}
-
+ for(int i = 1; i <= number; i++)
+ {
+    System.Console.WriteLine($"{Math.Pow(i, 2)} ");
+ }
