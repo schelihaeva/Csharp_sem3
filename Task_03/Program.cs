@@ -7,15 +7,15 @@ int[] A = new int[3];
  System.Console.Write("Введите координтату x точки А: ");
 A[0] = Convert.ToInt32(Console.ReadLine());
  System.Console.Write("Введите координтату y точки A: ");
-A[1] = Convert.ToInt32(Console.ReadLine());
+ A[1]= Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите координтату z точки A: ");
-A[2] = Convert.ToInt32(Console.ReadLine());
+ A[2] = Convert.ToInt32(Console.ReadLine());
 
 int[] B = new int[3];
 System.Console.Write("Введите координтату x точки B: ");
 B[0] = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите координтату y точки B: ");
-B[1] = Convert.ToInt32(Console.ReadLine());
+ B[1] = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите координтату z точки B: ");
 B[2] = Convert.ToInt32(Console.ReadLine());
 
